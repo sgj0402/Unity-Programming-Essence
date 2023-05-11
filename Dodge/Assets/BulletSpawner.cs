@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BulletSpawner : MonoBehaviour
 {
-    public GameOjbect bulletPrefab;
+    public GameObject bulletPrefab;
     public float spawnRateMin = 0.5f;
     public float spawnRateMax = 3f;
 
@@ -13,7 +13,7 @@ public class BulletSpawner : MonoBehaviour
     private float timeAfterSpawn;
 
     void Start() {
-        
+
     }
 
     void Update() {
