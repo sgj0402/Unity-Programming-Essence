@@ -1296,9 +1296,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e19e03210c1db947b56039fbb82f90d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameoverText: {fileID: 0}
-  timeText: {fileID: 0}
-  recordText: {fileID: 0}
+  gameoverText: {fileID: 980699512}
+  timeText: {fileID: 1274068516}
+  recordText: {fileID: 1942452641}
 --- !u!4 &1498411019
 Transform:
   m_ObjectHideFlags: 0
