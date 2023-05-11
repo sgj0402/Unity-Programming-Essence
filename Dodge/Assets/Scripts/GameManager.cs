@@ -12,10 +12,10 @@ public class GameManager : MonoBehaviour
 
     private float surviveTime;
     private bool isGameover;
-    
-    void Start()
-    {
-        
+
+    void Start() {
+        surviveTime = 0;
+        isGameover = false;
     }
 
     void Update()
