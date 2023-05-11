@@ -18,8 +18,10 @@ public class GameManager : MonoBehaviour
         isGameover = false;
     }
 
-    void Update()
-    {
-        
+    void Update() {
+        if (!isGameover) {
+            surviveTime += Time.deltaTime;
+            timeText.text = "Time: " + (int) surviveTime;
+        }
     }
 }
