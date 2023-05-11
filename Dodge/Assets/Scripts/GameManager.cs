@@ -6,6 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject gameoverText;
+    public Text timeText;
+    public Text recordText;
+
+    private float surviveTime;
+    private bool isGameover;
+    
     void Start()
     {
         
